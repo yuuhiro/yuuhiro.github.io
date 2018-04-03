@@ -20,7 +20,7 @@ importScripts('workbox-sw.prod.v2.1.2.js');
 const fileManifest = [
   {
     "url": "index.html",
-    "revision": "f26a92703d6b823b14bbaed273694a99"
+    "revision": "5549378e64883f83004ec55c21bc243d"
   },
   {
     "url": "index.js",
@@ -75,11 +75,3 @@ workboxSW.router.registerRoute(/https:\/\/cdn.jsdelivr.net\/npm\//, workboxSW.st
     "maxAgeSeconds": 604800
   }
 }), 'GET');
-
-self.addEventListener('push', (event) => {
-  const title = 'Get Started With Workbox';
-  const options = {
-    body: event.data.text()
-  };
-  event.waitUntil(self.registration.showNotification(title, options));
-});
