@@ -2,7 +2,7 @@
   "short_name": "Freeman",
   "name": "FreemanApp",
   "display": "standalone",
-  "background_color": "#fff",
+  "background_color": "#3c3c3c",
   "icons": [
     {
       "src": "images/icon180.png",
