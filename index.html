@@ -8,19 +8,6 @@
     <link rel="manifest" href="./manifest.json">
     <script src="/tag.js" type="riot/tag"></script>
     <script src="https://cdn.jsdelivr.net/npm/riot@3.9/riot+compiler.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
-    <script>
-    // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyB_Tfmkx0h0HPDxs-D7-jAGqqoPJ6u4qw0",
-        authDomain: "pwatest-fc76b.firebaseapp.com",
-        databaseURL: "https://pwatest-fc76b.firebaseio.com",
-        projectId: "pwatest-fc76b",
-        storageBucket: "pwatest-fc76b.appspot.com",
-        messagingSenderId: "484190716479"
-    };
-    firebase.initializeApp(config);
-    </script>
 </head>
 <body>
 
@@ -33,4 +20,19 @@
 <script>
     riot.mount('*')
 </script>
+
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyB_Tfmkx0h0HPDxs-D7-jAGqqoPJ6u4qw0",
+        authDomain: "pwatest-fc76b.firebaseapp.com",
+        databaseURL: "https://pwatest-fc76b.firebaseio.com",
+        projectId: "pwatest-fc76b",
+        storageBucket: "pwatest-fc76b.appspot.com",
+        messagingSenderId: "484190716479"
+    };
+    firebase.initializeApp(config);
+    </script>
 </html>
