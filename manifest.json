@@ -1,0 +1,25 @@
+{
+  "short_name": "Freeman",
+  "name": "FreemanApp",
+  "display": "standalone",
+  "background_color": "#fff",
+  "icons": [
+    {
+      "src": "images/icon180.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/icon180.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/icon180.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/?launcher=true",
+  "gcm_sender_id": "pwatest-fc76b"
+}
